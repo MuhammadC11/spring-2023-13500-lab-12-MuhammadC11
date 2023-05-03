@@ -15,7 +15,7 @@ std::vector<int> goodVibes(const std::vector<int> &v)
     std::vector<int> num;
     for (int i = 0; i < v.size(); i++)
     {
-        if (v[i] >= 0)
+        if (v[i] > 0)
         {
             num.push_back(v[i]);
         }

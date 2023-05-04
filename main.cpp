@@ -4,7 +4,7 @@
 
 int main()
 {
-
+    std::cout << "Task A" << std::endl;
     std::vector<int> v = makeVector(10);
     for (int i = 0; i < v.size(); i++)
     {
@@ -13,6 +13,7 @@ int main()
     std::cout << std::endl;
     std::vector<int> n{-4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
 
+    std::cout << "Task B" << std::endl;
     std::vector<int> newV = goodVibes(n);
     for (int i = 0; i < newV.size(); i++)
     {
@@ -20,6 +21,7 @@ int main()
     }
     std::cout << std::endl;
 
+    std::cout << "Task C" << std::endl;
     std::vector<int> goku{1, 2, 3};
     std::vector<int> vegeta{4, 5, 6};
     gogeta(goku, vegeta);
@@ -32,9 +34,9 @@ int main()
     {
         std::cout << vegeta[i] << std::endl;
     }
-
     std::cout << std::endl;
 
+    std::cout << "Task D" << std::endl;
     std::vector<int> v1{1, 2, 3};
     std::vector<int> v2{4, 5, 6};
     std::vector<int> sum = sumPairWise(v1, v2);
